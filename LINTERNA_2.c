@@ -13,7 +13,6 @@ void inicio(void);
 void modo_sel(void);
 void modo_apago(void);
 
-
 int modo=1,i=0;
 
 void main()
@@ -23,7 +22,7 @@ void main()
 	setup_comparator( NC_NC_NC_NC );
 	setup_adc_ports( NO_ANALOGS );
 	setup_adc( ADC_OFF );
-	
+//Seguir editando	
 		
 	#define GP0 PIN_A0
 	#define GP1 PIN_A1
