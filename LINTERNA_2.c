@@ -4,6 +4,8 @@
 #use delay(clock=4000000)
 
 #define maximo	3						//---CANTIDAD DE MODOS-----
+
+//Probando edicion
 				
 void enciendo_led(void);	//Modo rormal
 void bl_ahorro(void);		//Modo ahorro			
